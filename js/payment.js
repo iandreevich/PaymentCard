@@ -39,7 +39,6 @@
       },
     ],
 
-    ////Линк на диспатч, для определение динамической маски https://imask.js.org/guide.html#masked-dynamic
     dispatch: (appended, dynamicMasked) => {
       const number = (dynamicMasked.value + appended).replace(/\D/g, "");
       for (let i = 0; i < dynamicMasked.compiledMasks.length; i++) {
