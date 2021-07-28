@@ -1,0 +1,291 @@
+body {
+  background: #f2f2f2;
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  margin: 0;
+  max-width: 800px;
+  margin: 100px auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.tabs-nav {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f2f2f2;
+  text-align: center;
+  list-style: none;
+}
+
+.tabs-nav__item {
+  border-bottom: 1px solid #6eff74;
+  cursor: pointer;
+  flex: 1;
+  padding: 20px;
+  opacity: 0.5;
+}
+
+.tabs-nav__item.is-active {
+  border-color: #3cff00;
+  opacity: 1;
+}
+
+.tabs-nav__item.disabled.disabled {
+  border-color: #ff8080;
+  pointer-events: none;
+}
+.tab {
+  display: none;
+  padding: 0px 35px 60px 35px;
+}
+.tab.is-active {
+  display: block;
+}
+
+.tab__product {
+  display: flex;
+  align-items: center;
+}
+
+.tab__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tab-product__price {
+  margin: 20px 0;
+}
+.tab-product__info {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card__buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shipping__content {
+  width: 60%;
+  margin: auto;
+}
+
+.form-item {
+  margin-bottom: 10px;
+}
+
+.basic {
+  display: none;
+}
+.shipping__content h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+.shipping__fields {
+  display: none;
+}
+.shipping__house-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group-couple {
+  display: flex;
+  justify-content: space-between;
+}
+.form-group-couple .form-group {
+  width: 45%;
+}
+.house-info__item {
+  width: 40%;
+}
+
+.confirm__content h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+.tab-product__info {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+}
+.disabled {
+  pointer-events: none;
+}
+.card__buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shipping__content {
+  width: 60%;
+  margin: auto;
+}
+
+.form-item {
+  margin-bottom: 10px;
+}
+
+.basic {
+  display: none;
+}
+.shipping__content h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+.shipping__fields {
+  display: none;
+}
+.shipping__house-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group-couple {
+  display: flex;
+  justify-content: space-between;
+}
+.form-group-couple .form-group {
+  width: 45%;
+}
+.house-info__item {
+  width: 40%;
+}
+
+.confirm__content h3 {
+  text-align: center;
+  margin: 20px;
+}
+.tab-product__price {
+  margin: 20px 0;
+}
+.tab-product__info {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card__buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shipping__content {
+  width: 60%;
+  margin: auto;
+}
+
+.form-item {
+  margin-bottom: 10px;
+}
+
+.basic {
+  display: none;
+}
+.shipping__content h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+.shipping__fields {
+  display: none;
+}
+.shipping__house-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group-couple {
+  display: flex;
+  justify-content: space-between;
+}
+.form-group-couple .form-group {
+  width: 45%;
+}
+.house-info__item {
+  width: 40%;
+}
+
+.confirm__content h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    width: 600px;
+    font-size: 12px;
+  }
+  .tab {
+    padding: 0px 35px 60px 35px;
+  }
+  .tab__product {
+    flex-direction: column;
+  }
+  .payment {
+    flex-direction: column;
+  }
+  .payment {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .payment__container {
+    max-width: 370px;
+    max-height: 250px;
+    align-items: baseline;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 650px) {
+  .wrapper {
+    width: 350px;
+  }
+  .tabs-nav__item {
+    padding: 10px;
+  }
+
+  .shipping__content {
+    margin: 0;
+    width: 100%;
+  }
+
+  .field-container-couple .field-container:last-child {
+    margin-left: 5px;
+  }
+  .ccicon {
+    height: 30px;
+    width: 30px;
+    top: 40px;
+  }
+  #ccsingle svg {
+    width: 60px;
+    max-height: 50px;
+  }
+  .tab-product__price {
+    margin: 20px 0;
+  }
+
+  .form-control,
+  .form-select {
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .tab-4 {
+    padding: 0px 35px 30px 35px;
+  }
+}
